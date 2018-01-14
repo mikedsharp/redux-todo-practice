@@ -12,9 +12,6 @@ store.subscribe(() => {
   console.log('new state', store.getState());
 });
 
-store.dispatch(actions.addTodo('learn react'));
-store.dispatch(actions.setSearchText('react'));
-store.dispatch(actions.toggleShowCompleted());
 // Load foundation
 $(document).foundation();
 
